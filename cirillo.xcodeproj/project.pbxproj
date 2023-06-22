@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7177E722A41A2CA00302574 /* ClockButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7177E712A41A2C900302574 /* ClockButton.swift */; };
+		A744482B2A44444A00BD57B0 /* ClockPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A744482A2A44444A00BD57B0 /* ClockPage.swift */; };
+		A74935EC2A4051010055EF02 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74935EB2A4051010055EF02 /* Clock.swift */; };
 		A77729722A3934C20001D766 /* cirilloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77729712A3934C20001D766 /* cirilloApp.swift */; };
 		A77729742A3934C20001D766 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77729732A3934C20001D766 /* ContentView.swift */; };
 		A77729762A3934C30001D766 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77729752A3934C30001D766 /* Assets.xcassets */; };
@@ -14,6 +17,8 @@
 		A77729842A3934C30001D766 /* cirilloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77729832A3934C30001D766 /* cirilloTests.swift */; };
 		A777298E2A3934C30001D766 /* cirilloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A777298D2A3934C30001D766 /* cirilloUITests.swift */; };
 		A77729902A3934C30001D766 /* cirilloUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A777298F2A3934C30001D766 /* cirilloUITestsLaunchTests.swift */; };
+		A7964A0B2A3C67530007B0B6 /* OutlineCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7964A0A2A3C67530007B0B6 /* OutlineCircle.swift */; };
+		A7CB1BF82A39C76000486592 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CB1BF72A39C76000486592 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A7177E712A41A2C900302574 /* ClockButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockButton.swift; sourceTree = "<group>"; };
+		A744482A2A44444A00BD57B0 /* ClockPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockPage.swift; sourceTree = "<group>"; };
+		A74935EB2A4051010055EF02 /* Clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
 		A777296E2A3934C20001D766 /* cirillo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cirillo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A77729712A3934C20001D766 /* cirilloApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cirilloApp.swift; sourceTree = "<group>"; };
 		A77729732A3934C20001D766 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +53,8 @@
 		A77729892A3934C30001D766 /* cirilloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cirilloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A777298D2A3934C30001D766 /* cirilloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cirilloUITests.swift; sourceTree = "<group>"; };
 		A777298F2A3934C30001D766 /* cirilloUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cirilloUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A7964A0A2A3C67530007B0B6 /* OutlineCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineCircle.swift; sourceTree = "<group>"; };
+		A7CB1BF72A39C76000486592 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A744482C2A44458B00BD57B0 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				A744482A2A44444A00BD57B0 /* ClockPage.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
 		A77729652A3934C20001D766 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +113,8 @@
 		A77729702A3934C20001D766 /* cirillo */ = {
 			isa = PBXGroup;
 			children = (
+				A7964A082A3C67170007B0B6 /* Presentation */,
+				A7CB1BF42A39C74100486592 /* Core */,
 				A77729712A3934C20001D766 /* cirilloApp.swift */,
 				A77729732A3934C20001D766 /* ContentView.swift */,
 				A77729752A3934C30001D766 /* Assets.xcassets */,
@@ -127,6 +147,41 @@
 				A777298F2A3934C30001D766 /* cirilloUITestsLaunchTests.swift */,
 			);
 			path = cirilloUITests;
+			sourceTree = "<group>";
+		};
+		A7964A082A3C67170007B0B6 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				A744482C2A44458B00BD57B0 /* Pages */,
+				A7964A092A3C673C0007B0B6 /* Views */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		A7964A092A3C673C0007B0B6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A7964A0A2A3C67530007B0B6 /* OutlineCircle.swift */,
+				A74935EB2A4051010055EF02 /* Clock.swift */,
+				A7177E712A41A2C900302574 /* ClockButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A7CB1BF42A39C74100486592 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A7CB1BF52A39C74B00486592 /* Extensions */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A7CB1BF52A39C74B00486592 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A7CB1BF72A39C76000486592 /* Color.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +314,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A744482B2A44444A00BD57B0 /* ClockPage.swift in Sources */,
+				A7177E722A41A2CA00302574 /* ClockButton.swift in Sources */,
+				A7964A0B2A3C67530007B0B6 /* OutlineCircle.swift in Sources */,
 				A77729742A3934C20001D766 /* ContentView.swift in Sources */,
 				A77729722A3934C20001D766 /* cirilloApp.swift in Sources */,
+				A7CB1BF82A39C76000486592 /* Color.swift in Sources */,
+				A74935EC2A4051010055EF02 /* Clock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

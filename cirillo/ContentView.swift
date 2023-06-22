@@ -1,21 +1,20 @@
-//
-//  ContentView.swift
-//  cirillo
-//
-//  Created by Leonardo Rosa on 13/06/23.
-//
-
 import SwiftUI
+import UserNotifications
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+    
+    init() {
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) { success, error in
+            if success {
+                print("All set!")
+            } else if let error = error {
+                print(error.localizedDescription)
+            }
         }
-        .padding()
+    }
+    
+    var body: some View {
+        ClockPage().frame(maxWidth: .infinity, maxHeight: .infinity).padding([.all], 40).background(Color.background.ignoresSafeArea())
     }
 }
 
