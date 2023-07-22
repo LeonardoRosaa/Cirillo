@@ -1,7 +1,8 @@
 import SwiftUI
 
 @main
-struct cirilloApp: App {
+struct cirilloApp: App {        
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

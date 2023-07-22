@@ -7,18 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37F7F64BF3B9972BCD7072BD /* cirilloTests-cirilloMocks.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A39C1F671511CBE4BB6F75 /* cirilloTests-cirilloMocks.generated.swift */; };
+		4D3F5FA0D08AB968B4865824 /* Pods_cirilloTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E26DBC52A9BFDAC5F4C265 /* Pods_cirilloTests.framework */; };
 		A7177E722A41A2CA00302574 /* ClockButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7177E712A41A2C900302574 /* ClockButton.swift */; };
+		A71F6D232A67E31100A975CB /* TestClockObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71F6D222A67E31100A975CB /* TestClockObservable.swift */; };
+		A72DA2462A5F6EA500D84F74 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A72DA2482A5F6EA500D84F74 /* Localizable.strings */; };
 		A744482B2A44444A00BD57B0 /* ClockPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A744482A2A44444A00BD57B0 /* ClockPage.swift */; };
+		A744482F2A44526F00BD57B0 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = A744482E2A44526F00BD57B0 /* Swinject */; };
 		A74935EC2A4051010055EF02 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74935EB2A4051010055EF02 /* Clock.swift */; };
+		A74D060A2A59757100891C78 /* testNotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74D06092A59757100891C78 /* testNotificationService.swift */; };
 		A77729722A3934C20001D766 /* cirilloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77729712A3934C20001D766 /* cirilloApp.swift */; };
 		A77729742A3934C20001D766 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77729732A3934C20001D766 /* ContentView.swift */; };
 		A77729762A3934C30001D766 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77729752A3934C30001D766 /* Assets.xcassets */; };
 		A777297A2A3934C30001D766 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77729792A3934C30001D766 /* Preview Assets.xcassets */; };
-		A77729842A3934C30001D766 /* cirilloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77729832A3934C30001D766 /* cirilloTests.swift */; };
 		A777298E2A3934C30001D766 /* cirilloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A777298D2A3934C30001D766 /* cirilloUITests.swift */; };
 		A77729902A3934C30001D766 /* cirilloUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A777298F2A3934C30001D766 /* cirilloUITestsLaunchTests.swift */; };
+		A78614A52A4ED6AE00521E25 /* DependecyInjectionContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78614A42A4ED6AE00521E25 /* DependecyInjectionContainer.swift */; };
 		A7964A0B2A3C67530007B0B6 /* OutlineCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7964A0A2A3C67530007B0B6 /* OutlineCircle.swift */; };
+		A7B3D9012A56C46700187F65 /* NotificationGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B3D9002A56C46700187F65 /* NotificationGateway.swift */; };
+		A7B3D9052A56CA0400187F65 /* UserNotificationCenterGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B3D9042A56CA0400187F65 /* UserNotificationCenterGateway.swift */; };
+		A7B3D9082A56CB4600187F65 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B3D9072A56CB4600187F65 /* NotificationService.swift */; };
 		A7CB1BF82A39C76000486592 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CB1BF72A39C76000486592 /* Color.swift */; };
+		A7FD18302A669233007763C1 /* ClockObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FD182F2A669233007763C1 /* ClockObservable.swift */; };
+		D3B724BD18D902EAA7DC5368 /* Pods_cirillo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99578C7C22CFB67B3279C311 /* Pods_cirillo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +50,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F93801BAD6EBDB2AC281D2E /* Pods-cirilloTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cirilloTests.release.xcconfig"; path = "Target Support Files/Pods-cirilloTests/Pods-cirilloTests.release.xcconfig"; sourceTree = "<group>"; };
+		48CA5763AE5285254D96F47C /* Pods-cirillo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cirillo.release.xcconfig"; path = "Target Support Files/Pods-cirillo/Pods-cirillo.release.xcconfig"; sourceTree = "<group>"; };
+		69A39C1F671511CBE4BB6F75 /* cirilloTests-cirilloMocks.generated.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "cirilloTests-cirilloMocks.generated.swift"; path = "MockingbirdMocks/cirilloTests-cirilloMocks.generated.swift"; sourceTree = "<group>"; };
+		6FAAB1493B748B81BB3CE64C /* Pods-cirillo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cirillo.debug.xcconfig"; path = "Target Support Files/Pods-cirillo/Pods-cirillo.debug.xcconfig"; sourceTree = "<group>"; };
+		87E26DBC52A9BFDAC5F4C265 /* Pods_cirilloTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cirilloTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99578C7C22CFB67B3279C311 /* Pods_cirillo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cirillo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7177E712A41A2C900302574 /* ClockButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockButton.swift; sourceTree = "<group>"; };
+		A71F6D222A67E31100A975CB /* TestClockObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClockObservable.swift; sourceTree = "<group>"; };
+		A72DA2472A5F6EA500D84F74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A744482A2A44444A00BD57B0 /* ClockPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockPage.swift; sourceTree = "<group>"; };
 		A74935EB2A4051010055EF02 /* Clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
+		A74D06092A59757100891C78 /* testNotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testNotificationService.swift; sourceTree = "<group>"; };
 		A777296E2A3934C20001D766 /* cirillo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cirillo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A77729712A3934C20001D766 /* cirilloApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cirilloApp.swift; sourceTree = "<group>"; };
 		A77729732A3934C20001D766 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,12 +69,17 @@
 		A77729772A3934C30001D766 /* cirillo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = cirillo.entitlements; sourceTree = "<group>"; };
 		A77729792A3934C30001D766 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A777297F2A3934C30001D766 /* cirilloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cirilloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A77729832A3934C30001D766 /* cirilloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cirilloTests.swift; sourceTree = "<group>"; };
 		A77729892A3934C30001D766 /* cirilloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cirilloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A777298D2A3934C30001D766 /* cirilloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cirilloUITests.swift; sourceTree = "<group>"; };
 		A777298F2A3934C30001D766 /* cirilloUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cirilloUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A78614A42A4ED6AE00521E25 /* DependecyInjectionContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependecyInjectionContainer.swift; sourceTree = "<group>"; };
 		A7964A0A2A3C67530007B0B6 /* OutlineCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineCircle.swift; sourceTree = "<group>"; };
+		A7B3D9002A56C46700187F65 /* NotificationGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationGateway.swift; sourceTree = "<group>"; };
+		A7B3D9042A56CA0400187F65 /* UserNotificationCenterGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotificationCenterGateway.swift; sourceTree = "<group>"; };
+		A7B3D9072A56CB4600187F65 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		A7CB1BF72A39C76000486592 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		A7FD182F2A669233007763C1 /* ClockObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockObservable.swift; sourceTree = "<group>"; };
+		EE153B6501F3B1B66DB56E1D /* Pods-cirilloTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cirilloTests.debug.xcconfig"; path = "Target Support Files/Pods-cirilloTests/Pods-cirilloTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +87,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A744482F2A44526F00BD57B0 /* Swinject in Frameworks */,
+				D3B724BD18D902EAA7DC5368 /* Pods_cirillo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D3F5FA0D08AB968B4865824 /* Pods_cirilloTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +110,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1057810BC3D85FDE8213C11F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99578C7C22CFB67B3279C311 /* Pods_cirillo.framework */,
+				87E26DBC52A9BFDAC5F4C265 /* Pods_cirilloTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54688DFA4CBE58AC318371A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FAAB1493B748B81BB3CE64C /* Pods-cirillo.debug.xcconfig */,
+				48CA5763AE5285254D96F47C /* Pods-cirillo.release.xcconfig */,
+				EE153B6501F3B1B66DB56E1D /* Pods-cirilloTests.debug.xcconfig */,
+				0F93801BAD6EBDB2AC281D2E /* Pods-cirilloTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7C20F1FE061A108151A553B6 /* Generated Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				69A39C1F671511CBE4BB6F75 /* cirilloTests-cirilloMocks.generated.swift */,
+			);
+			name = "Generated Mocks";
+			sourceTree = "<group>";
+		};
 		A744482C2A44458B00BD57B0 /* Pages */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,10 +149,14 @@
 		A77729652A3934C20001D766 = {
 			isa = PBXGroup;
 			children = (
+				A72DA2482A5F6EA500D84F74 /* Localizable.strings */,
 				A77729702A3934C20001D766 /* cirillo */,
 				A77729822A3934C30001D766 /* cirilloTests */,
 				A777298C2A3934C30001D766 /* cirilloUITests */,
 				A777296F2A3934C20001D766 /* Products */,
+				54688DFA4CBE58AC318371A2 /* Pods */,
+				7C20F1FE061A108151A553B6 /* Generated Mocks */,
+				1057810BC3D85FDE8213C11F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +173,8 @@
 		A77729702A3934C20001D766 /* cirillo */ = {
 			isa = PBXGroup;
 			children = (
+				A7B3D9022A56C9D500187F65 /* Data */,
+				A7B3D8FE2A56C1C600187F65 /* Domain */,
 				A7964A082A3C67170007B0B6 /* Presentation */,
 				A7CB1BF42A39C74100486592 /* Core */,
 				A77729712A3934C20001D766 /* cirilloApp.swift */,
@@ -135,7 +197,8 @@
 		A77729822A3934C30001D766 /* cirilloTests */ = {
 			isa = PBXGroup;
 			children = (
-				A77729832A3934C30001D766 /* cirilloTests.swift */,
+				A71F6D222A67E31100A975CB /* TestClockObservable.swift */,
+				A74D06092A59757100891C78 /* testNotificationService.swift */,
 			);
 			path = cirilloTests;
 			sourceTree = "<group>";
@@ -152,6 +215,7 @@
 		A7964A082A3C67170007B0B6 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				A7FD182E2A669217007763C1 /* Observables */,
 				A744482C2A44458B00BD57B0 /* Pages */,
 				A7964A092A3C673C0007B0B6 /* Views */,
 			);
@@ -168,10 +232,52 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		A7B3D8FE2A56C1C600187F65 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				A7B3D9062A56CAF200187F65 /* Services */,
+				A7B3D8FF2A56C1CF00187F65 /* Gateways */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		A7B3D8FF2A56C1CF00187F65 /* Gateways */ = {
+			isa = PBXGroup;
+			children = (
+				A7B3D9002A56C46700187F65 /* NotificationGateway.swift */,
+			);
+			path = Gateways;
+			sourceTree = "<group>";
+		};
+		A7B3D9022A56C9D500187F65 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A7B3D9032A56C9E900187F65 /* Gateway */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A7B3D9032A56C9E900187F65 /* Gateway */ = {
+			isa = PBXGroup;
+			children = (
+				A7B3D9042A56CA0400187F65 /* UserNotificationCenterGateway.swift */,
+			);
+			path = Gateway;
+			sourceTree = "<group>";
+		};
+		A7B3D9062A56CAF200187F65 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A7B3D9072A56CB4600187F65 /* NotificationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		A7CB1BF42A39C74100486592 /* Core */ = {
 			isa = PBXGroup;
 			children = (
 				A7CB1BF52A39C74B00486592 /* Extensions */,
+				A78614A42A4ED6AE00521E25 /* DependecyInjectionContainer.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -184,6 +290,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		A7FD182E2A669217007763C1 /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				A7FD182F2A669233007763C1 /* ClockObservable.swift */,
+			);
+			path = Observables;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -191,6 +305,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A77729932A3934C30001D766 /* Build configuration list for PBXNativeTarget "cirillo" */;
 			buildPhases = (
+				C04F6EDBE3654EF0ACCD9146 /* [CP] Check Pods Manifest.lock */,
 				A777296A2A3934C20001D766 /* Sources */,
 				A777296B2A3934C20001D766 /* Frameworks */,
 				A777296C2A3934C20001D766 /* Resources */,
@@ -200,6 +315,9 @@
 			dependencies = (
 			);
 			name = cirillo;
+			packageProductDependencies = (
+				A744482E2A44526F00BD57B0 /* Swinject */,
+			);
 			productName = cirillo;
 			productReference = A777296E2A3934C20001D766 /* cirillo.app */;
 			productType = "com.apple.product-type.application";
@@ -208,9 +326,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A77729962A3934C30001D766 /* Build configuration list for PBXNativeTarget "cirilloTests" */;
 			buildPhases = (
+				7FEF60D245A5D046D9E63ABF /* [CP] Check Pods Manifest.lock */,
+				A7F8C4520129B5F97A7746F6 /* Generate Mockingbird Mocks */,
 				A777297B2A3934C30001D766 /* Sources */,
 				A777297C2A3934C30001D766 /* Frameworks */,
 				A777297D2A3934C30001D766 /* Resources */,
+				0F767E51BC12BB5208B00E02 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -272,6 +393,9 @@
 				Base,
 			);
 			mainGroup = A77729652A3934C20001D766;
+			packageReferences = (
+				A744482D2A44526F00BD57B0 /* XCRemoteSwiftPackageReference "Swinject" */,
+			);
 			productRefGroup = A777296F2A3934C20001D766 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -289,6 +413,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A777297A2A3934C30001D766 /* Preview Assets.xcassets in Resources */,
+				A72DA2462A5F6EA500D84F74 /* Localizable.strings in Resources */,
 				A77729762A3934C30001D766 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +434,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F767E51BC12BB5208B00E02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cirilloTests/Pods-cirilloTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cirilloTests/Pods-cirilloTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cirilloTests/Pods-cirilloTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FEF60D245A5D046D9E63ABF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cirilloTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7F8C4520129B5F97A7746F6 /* Generate Mockingbird Mocks */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Mockingbird Mocks";
+			outputPaths = (
+				"$(SRCROOT)/MockingbirdMocks/cirilloTests-cirilloMocks.generated.swift",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -eu\n\n# Prevent Xcode 13 from running this script while indexing.\n[[ \"${ACTION}\" == \"indexbuild\" ]] && exit 0\n\n\"${SRCROOT}/Pods/MockingbirdFramework/mockingbird\" generate --targets \"cirillo\" --outputs \"${SRCROOT}/MockingbirdMocks/cirilloTests-cirilloMocks.generated.swift\"";
+		};
+		C04F6EDBE3654EF0ACCD9146 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cirillo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A777296A2A3934C20001D766 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -317,10 +526,15 @@
 				A744482B2A44444A00BD57B0 /* ClockPage.swift in Sources */,
 				A7177E722A41A2CA00302574 /* ClockButton.swift in Sources */,
 				A7964A0B2A3C67530007B0B6 /* OutlineCircle.swift in Sources */,
+				A7B3D9052A56CA0400187F65 /* UserNotificationCenterGateway.swift in Sources */,
+				A7B3D9082A56CB4600187F65 /* NotificationService.swift in Sources */,
+				A7FD18302A669233007763C1 /* ClockObservable.swift in Sources */,
 				A77729742A3934C20001D766 /* ContentView.swift in Sources */,
 				A77729722A3934C20001D766 /* cirilloApp.swift in Sources */,
+				A78614A52A4ED6AE00521E25 /* DependecyInjectionContainer.swift in Sources */,
 				A7CB1BF82A39C76000486592 /* Color.swift in Sources */,
 				A74935EC2A4051010055EF02 /* Clock.swift in Sources */,
+				A7B3D9012A56C46700187F65 /* NotificationGateway.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,7 +542,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A77729842A3934C30001D766 /* cirilloTests.swift in Sources */,
+				A74D060A2A59757100891C78 /* testNotificationService.swift in Sources */,
+				37F7F64BF3B9972BCD7072BD /* cirilloTests-cirilloMocks.generated.swift in Sources */,
+				A71F6D232A67E31100A975CB /* TestClockObservable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +571,17 @@
 			targetProxy = A777298A2A3934C30001D766 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A72DA2482A5F6EA500D84F74 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A72DA2472A5F6EA500D84F74 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A77729912A3934C30001D766 /* Debug */ = {
@@ -468,9 +695,11 @@
 		};
 		A77729942A3934C30001D766 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FAAB1493B748B81BB3CE64C /* Pods-cirillo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = cirillo/cirillo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -479,6 +708,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Cirillo;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -497,18 +728,21 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cbool.cirillo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		A77729952A3934C30001D766 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48CA5763AE5285254D96F47C /* Pods-cirillo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = cirillo/cirillo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -517,6 +751,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Cirillo;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -535,15 +771,17 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cbool.cirillo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		A77729972A3934C30001D766 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE153B6501F3B1B66DB56E1D /* Pods-cirilloTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -559,6 +797,7 @@
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cirillo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cirillo";
@@ -567,6 +806,7 @@
 		};
 		A77729982A3934C30001D766 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F93801BAD6EBDB2AC281D2E /* Pods-cirilloTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -582,6 +822,7 @@
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cirillo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cirillo";
@@ -672,6 +913,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A744482D2A44526F00BD57B0 /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A744482E2A44526F00BD57B0 /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A744482D2A44526F00BD57B0 /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A77729662A3934C20001D766 /* Project object */;
 }
