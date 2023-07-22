@@ -3,8 +3,6 @@ import UserNotifications
 import Swinject
 
 struct ContentView: View {
-    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
-
     init() {
         DIContainer.shared.resolve(type: NotificationService.self)?.requestPermission()
     }
