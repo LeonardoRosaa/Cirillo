@@ -17,7 +17,7 @@
                BlueprintIdentifier = "A777296D2A3934C20001D766"
                BuildableName = "cirillo.app"
                BlueprintName = "cirillo"
-               ReferencedContainer = "container:cirillo.xcodeproj">
+               ReferencedContainer = "container:Cirillo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -36,7 +36,7 @@
                BlueprintIdentifier = "A777297E2A3934C30001D766"
                BuildableName = "cirilloTests.xctest"
                BlueprintName = "cirilloTests"
-               ReferencedContainer = "container:cirillo.xcodeproj">
+               ReferencedContainer = "container:Cirillo.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -47,7 +47,7 @@
                BlueprintIdentifier = "A77729882A3934C30001D766"
                BuildableName = "cirilloUITests.xctest"
                BlueprintName = "cirilloUITests"
-               ReferencedContainer = "container:cirillo.xcodeproj">
+               ReferencedContainer = "container:Cirillo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -69,7 +69,7 @@
             BlueprintIdentifier = "A777296D2A3934C20001D766"
             BuildableName = "cirillo.app"
             BlueprintName = "cirillo"
-            ReferencedContainer = "container:cirillo.xcodeproj">
+            ReferencedContainer = "container:Cirillo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -86,7 +86,7 @@
             BlueprintIdentifier = "A777296D2A3934C20001D766"
             BuildableName = "cirillo.app"
             BlueprintName = "cirillo"
-            ReferencedContainer = "container:cirillo.xcodeproj">
+            ReferencedContainer = "container:Cirillo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

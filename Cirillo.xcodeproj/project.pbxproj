@@ -384,7 +384,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A77729692A3934C20001D766 /* Build configuration list for PBXProject "cirillo" */;
+			buildConfigurationList = A77729692A3934C20001D766 /* Build configuration list for PBXProject "I" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -708,7 +708,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Cirillo;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cirillo - Debug";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -883,7 +883,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A77729692A3934C20001D766 /* Build configuration list for PBXProject "cirillo" */ = {
+		A77729692A3934C20001D766 /* Build configuration list for PBXProject "I" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A77729912A3934C30001D766 /* Debug */,
