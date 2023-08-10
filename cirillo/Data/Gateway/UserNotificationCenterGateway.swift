@@ -17,12 +17,11 @@ class UserNotificationCenterGateway : NotificationGateway {
         content.title = title
         content.subtitle = description
         content.sound = UNNotificationSound.default
-        content.badge = 1
         
         let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 1, repeats: false)
 
         let request = UNNotificationRequest(identifier: id, content: content, trigger: trigger)
 
-        UNUserNotificationCenter.current().add(request)
+        notificationCenter.add(request)
     }
 }

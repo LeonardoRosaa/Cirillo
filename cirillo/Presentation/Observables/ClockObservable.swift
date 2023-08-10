@@ -2,9 +2,9 @@ import Foundation
 import SwiftUI
 import Combine
 
-let INITIAL_POMODORO_TIME = 1500
-let INITIAL_REST_TIME = 300
-let INITIAL_LONG_REST_TIME = 1200
+let INITIAL_POMODORO_TIME = 5
+let INITIAL_REST_TIME = 2
+let INITIAL_LONG_REST_TIME = 4
 
 enum ClockTimeStatus {
     case stopped
@@ -141,7 +141,7 @@ class ClockObservable : ObservableObject {
 
         if seconds.isZero {
             let title = String(localized: "timesUp")
-            var description: String = String(localized: "timesUpFocusDescription")
+            var description: String = String(localized: "timesUpRestDescription")
             
             switch state {
                 case .normal:
@@ -155,7 +155,7 @@ class ClockObservable : ObservableObject {
                         initialTime = INITIAL_REST_TIME
                     }
                 
-                    description = String(localized: "timesUpRestDescription")
+                    description = String(localized: "timesUpFocusDescription")
             case .rest:
                 state = .normal
                 initialTime = INITIAL_POMODORO_TIME
